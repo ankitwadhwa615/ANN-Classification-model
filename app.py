@@ -6,7 +6,7 @@ import tensorflow as tf
 from sklearn.preprocessing import OneHotEncoder, LabelEncoder, StandardScaler
 
 # load the model
-model = tf.keras.models.load_model('model.h5', compile=False)
+model = tf.keras.models.load_model('model.keras', compile=False)
 
 #load onehot encode, Standard scaler, label Encoder
 
